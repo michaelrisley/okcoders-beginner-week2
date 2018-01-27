@@ -6,6 +6,9 @@
       }
 
       /*the pound sign is how you identify an "id" selector*/
+      .centered {
+        text-align: center;
+      }
       #banner {
       	text-align: center;
       	color: darksalmon;
@@ -35,7 +38,6 @@
       }
 
     .leadmessage p {
-      
         color: blue;   
     }
     /*AWESOME. This only applies the leadmessage class to paragraphs within the tagged element*/
