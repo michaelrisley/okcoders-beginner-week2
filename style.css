@@ -1,0 +1,18 @@
+/*CSS file for Week 2 Homework*/
+      
+      /* I am a CSS comment. If you are identifying a standard HTML element, dont do a pound or a period. */
+     body {
+        font-family: 'Roboto', serif;
+      }
+      /*the pound sign is how you identify an "id" selector*/
+      #banner {
+      	text-align: center;
+      	color: darksalmon;
+      }
+      /*the period sign is how you identify a "class" selector*/
+      .normalp {
+        text-align: justify;
+      }
+      .fancy {
+      	color: darkgrey;
+      }
