@@ -1,28 +1,51 @@
 /*CSS file for Week 2 Homework*/
       
-      /* I am a CSS comment. If you are identifying a standard HTML element, dont do a pound or a period. */
+      /* If you identify a standard HTML element, dont do a pound or a period. */
      body {
         font-family: 'Roboto', serif;
       }
+
       /*the pound sign is how you identify an "id" selector*/
       #banner {
       	text-align: center;
       	color: darksalmon;
       }
+
       /*the period sign is how you identify a "class" selector*/
       .normalp {
         text-align: justify;
       }
+
       .fancy {
       	color: darkgrey;
       }
+
       .boxtheory {
         margin: 20px;
-        border: solid 5px black;
+        border: solid 10px black;
         padding: 20px;
+        box-shadow: 5px 5px darkgrey;
+        /*the first px is the side and the second is the bottom*/
       }
+
       .boxcounterexample {
         margin: 1px;
-        border: solid 1px red;
+        border: solid 5px red;
         padding: 1px;
       }
+
+    .leadmessage p {
+      
+        color: blue;   
+    }
+    /*AWESOME. This only applies the leadmessage class to paragraphs within the tagged element*/
+
+    p:nth-child(odd) {
+      font-size: 20px;
+    }
+    /*This applies a style to every other paragraph - (odd).*/
+
+    a:hover {
+      color: red;
+    }
+    /*This applies to a sub-class "hover" of the a tag*/
